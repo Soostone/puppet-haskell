@@ -1,9 +1,9 @@
 name    'erochest/haskell'
 version '0.0.1'
 source 'UNKNOWN'
-author 'erochest'
+author 'Eric Rochester <erochest@gmail.com>'
 license 'Apache License, Version 2.0'
-summary 'UNKNOWN'
+summary 'This install the Haskell platform from source for Ubuntu linux.'
 description 'UNKNOWN'
 project_page 'UNKNOWN'
 
