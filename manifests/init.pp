@@ -37,9 +37,9 @@
 #
 class haskell(
   $dev              = false,
-  $ghc_version      = '7.4.2',
+  $ghc_version      = '7.6.3',
   $ghc_arch         = 'x86_64',
-  $platform_version = '2012.4.0.0',
+  $platform_version = '2013.2.0.0',
   $user             = 'root'
 ) {
   $home = $user ? {
