@@ -18,18 +18,5 @@ class haskell::cabalupdate {
     require     => Exec['cabal update']
   }
 
-  # # cabal-dev
-  if $dev {
-    exec { 'cabal install cabal-dev' :
-      # Need to extra packages listed to get around breaking versions and
-      # dependencies.
-      command     => "$home/.cabal/bin/cabal install cabal-dev",
-      user        => $user,
-      environment => "HOME=$home",
-      path        => ["$home/.cabal/bin", '/usr', '/usr/bin', '/usr/local/bin'],
-      require     => Exec['cabal install cabal-install']
-    }
-  }
-
 }
 

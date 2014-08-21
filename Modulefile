@@ -3,7 +3,7 @@ version '0.0.1'
 source 'UNKNOWN'
 author 'Eric Rochester <erochest@gmail.com>'
 license 'Apache License, Version 2.0'
-summary 'This install the Haskell platform from source for Ubuntu linux.'
+summary 'This installs GHC from a binary for Mac OS.'
 description 'UNKNOWN'
 project_page 'UNKNOWN'
 

@@ -1,10 +1,10 @@
 
 class haskell::ghc {
 
-  # http://www.haskell.org/ghc/dist/7.4.2/ghc-7.4.2-x86_64-unknown-linux.tar.bz2
+  # http://www.haskell.org/ghc/dist/7.6.3/ghc-7.6.3-x86_64-apple-darwin.tar.bz2
   $ghc_version = $haskell::ghc_version
   $ghc_arch    = $haskell::ghc_arch
-  $ghc_file    = "ghc-$ghc_version-$ghc_arch-unknown-linux.tar.bz2"
+  $ghc_file    = "ghc-$ghc_version-$ghc_arch-apple-darwin.tar.bz2"
   $ghc_url     = "http://www.haskell.org/ghc/dist/$ghc_version/$ghc_file"
   $ghc_dirname = "ghc-$ghc_version"
 

@@ -39,7 +39,6 @@ class haskell(
   $dev              = false,
   $ghc_version      = '7.6.3',
   $ghc_arch         = 'x86_64',
-  $platform_version = '2013.2.0.0',
   $user             = 'root'
 ) {
   $home = $user ? {
@@ -49,7 +48,6 @@ class haskell(
 
   class { 'haskell::packages'    : } ->
   class { 'haskell::ghc'         : } ->
-  class { 'haskell::platform'    : } ->
   class { 'haskell::cabalupdate' : }
 
 }
